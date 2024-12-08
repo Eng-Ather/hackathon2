@@ -14,6 +14,10 @@ import card6 from "@/app/images/card6.png";
 import card7 from "@/app/images/card7.png";
 import card8 from "@/app/images/card8.png";
 
+import bottombox1 from "@/app/images/bottombox1.png";
+import bottombox2 from "@/app/images/bottombox2.png";
+import bottombox3 from "@/app/images/bottombox3.png";
+
 import Footer from "./component/footer";
 
 export default function Home() {
@@ -135,6 +139,42 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </div>
+
+      {/* Bottom Box Image */}
+      <div className="w-full">
+        <Image
+          src={bottombox1}
+          alt="header image"
+          layout="responsive"
+          width={1440}
+          height={709}
+          objectFit="cover"
+        />
+      </div>
+
+      <div className="w-full flex flex-col items-center md:flex-row gap-[30px]">
+        <div className="w-full md:w-[704px]">
+          <Image
+            src={bottombox3}
+            alt="header image"
+            layout="responsive"
+            width={704}
+            height={628}
+            objectFit="cover"
+          />
+        </div>
+
+        <div className="w-full md:w-[573px] px-2">
+          <Image
+            src={bottombox2}
+            alt="header image"
+            layout="responsive"
+            width={573}
+            height={326}
+            objectFit="cover"
+          />
         </div>
       </div>
 
