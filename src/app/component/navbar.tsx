@@ -23,13 +23,15 @@ const Nav = () => {
     return (
         <div className="w-full h-[60px] md:h-[136px]">
 
-            {/* Header Image (hidden on small screens) */}
-            <div className="w-full h-[58px] hidden lg:block">
+              {/* Header Image (hidden on small screens) */}
+              <div className="w-full h-[58px] hidden lg:block">
                 <Image
                     src={headerimage}
                     alt="header image"
+                    layout="responsive" // Ensures it adjusts to width
                     width={1440}
                     height={58}
+                    objectFit="cover"
                 />
             </div>
 
