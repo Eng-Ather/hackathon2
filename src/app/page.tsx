@@ -154,7 +154,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="w-full flex flex-col items-center md:flex-row gap-[30px]">
+      <div className=" w-full flex flex-col justify-center mx-auto items-center md:flex-row ">
         <div className="w-full md:w-[704px]">
           <Image
             src={bottombox3}
