@@ -52,7 +52,7 @@ const Nav = () => {
                     <div className={`flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 ${isMenuOpen ? "block w-full absolute top-[58px] left-0 bg-white px-4 py-4" : "hidden md:flex"} items-center justify-center`}>
                         <Link href="/" className="text-center">Home</Link>
                         <Link href="/" className="text-center">Shop</Link>
-                        <Link href="/" className="text-center">About</Link>
+                        <Link href="/About" className="text-center">About</Link>
                         <Link href="/" className="text-center">Blog</Link>
                         <Link href="/" className="text-center">Contact</Link>
                         <Link href="/" className="text-center">Pages</Link>
