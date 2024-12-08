@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Footer from "./component/footer";
 
 export default function Home() {
   return (
@@ -99,6 +100,10 @@ export default function Home() {
     // </div>
     <div>
       <h1>Hacathone 2</h1>
+
+      <Footer/>
+
     </div>
+
   );
 }
